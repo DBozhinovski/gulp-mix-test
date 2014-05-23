@@ -1,13 +1,9 @@
 {
   "name": "mixer",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "version": "0.0.1",
+  "description": "test for getting a list of @imports",
+  "author": "Steve Lacy",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.6.2",
     "gulp-stylus": "^1.0.1",
