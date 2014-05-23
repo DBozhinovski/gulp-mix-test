@@ -13,7 +13,7 @@ module.exports = function(outname){
   };
 
   var flush = function(cb){
-    console.log(paths);
+    gutil.log(gutil.colors.cyan(paths));
 
     var newFile = new gutil.File({
       base: __dirname,
