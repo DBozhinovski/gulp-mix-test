@@ -9,5 +9,6 @@
     "gulp-stylus": "^1.0.1",
     "through2": "^0.4.2",
     "gulp-util": "^2.2.14"
-  }
+  },
+  main: "./mixer.js"
 }
