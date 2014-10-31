@@ -16,7 +16,7 @@ module.exports = function(outname){
     gutil.log(gutil.colors.cyan(paths));
 
     var newFile = new gutil.File({
-      path: __dirname + '/' + outname + '.styl',
+      path: process.cwd() + '/' + outname + '.styl',
       contents: new Buffer(paths)
     });
 
